@@ -16,7 +16,9 @@
   },
   "targets": {
     "main": {
-      "distDir": "dist"
+      "distDir": "dist",
+      "source": "src/index.html",
+      "publicUrl": "./"
     }
   }
 }
