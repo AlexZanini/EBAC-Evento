@@ -1,0 +1,57 @@
+.hero {
+    display: flex;
+    align-items: center;
+    margin: 10vh auto;
+    text-align: center;
+    width: 80%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+
+ 
+
+    &__text {
+        font-size: 60px;
+        font-weight: bold;
+        padding-bottom: 80px;
+        position: relative;
+        z-index: 1;
+
+        span {
+            display: block;
+        }
+    }
+}
+
+
+
+.infos-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+    &__infos {
+        display: flex;
+        gap: 40px;
+
+        &__item {
+            font-size: 20px;
+            b {
+                font-weight: bold;
+                font-size: 28px;
+                display: block;
+            }
+        }
+    }
+
+    a {
+        text-align: center;
+        margin-left: 10px;
+    }
+}
